@@ -1,0 +1,107 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ---- Virtual environments ----
+env/
+venv/
+ENV/
+.venv/
+.env/
+env.bak/
+venv.bak/
+
+# ---- Environment variables / secrets ----
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+config.json
+secrets.yaml
+secrets.yml
+
+# AWS
+.aws/
+aws.json
+*.aws-credentials
+
+# ---- LangChain / LLM specific ----
+# Local vector stores / embeddings caches
+*.faiss
+*.index
+faiss_index/
+chroma_db/
+.chroma/
+*.sqlite3
+*.duckdb
+lancedb/
+qdrant_storage/
+
+# LangChain cache
+.langchain.db
+langchain_cache/
+.cache/
+
+# Prompt / eval outputs, run logs
+*.log
+logs/
+runs/
+outputs/
+wandb/
+mlruns/
+
+# LangSmith
+.langsmith/
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ---- IDE / editor ----
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ---- Testing / coverage ----
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.ruff_cache/
+
+# ---- Bedrock / model artifacts ----
+*.bin
+*.safetensors
+*.gguf
+*.onnx
+model_cache/
+.bedrock/
+
+# ---- Misc ----
+*.bak
+*.tmp
+node_modules/
